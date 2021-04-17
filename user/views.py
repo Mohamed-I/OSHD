@@ -5,5 +5,5 @@ from .models import Employee
 
 class EmployeeView(generic.ListView):
     model = Employee
-    template_name = 'home.html'
+    template_name = 'user.html'
 
